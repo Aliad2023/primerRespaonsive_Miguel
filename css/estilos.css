@@ -1,0 +1,34 @@
+/*RESET*/
+*{
+    box-sizing: content-box;
+}
+
+
+/*VARIABLES*/
+
+
+/*CONTENIDO MOVIL*/
+
+header{
+
+}
+
+.header__banner{
+    display: block;  
+    height: 200px;
+    background-color: red;
+    background-image: url(../img/bannerMovil.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /*EScritorio*/
+
+    @media only screen and (min-width: 1200px){
+        background-image: url(../img/bannerEscritorio.webp);
+        height: 400px;
+    }
+
+}
+
+
